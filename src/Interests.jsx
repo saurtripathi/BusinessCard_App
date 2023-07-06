@@ -9,7 +9,9 @@ function Interests() {
 
   return (
     <>
-     <h1>This is Interests component</h1>
+     <h3>Interests</h3>
+     <p>Nature lover. Bird watcher. Sufi music lover.History buff. 
+        Entrepreneur. Travel geek. Culture enthusiast. Cold Coffee fanatic.</p>
     </>
 
   )

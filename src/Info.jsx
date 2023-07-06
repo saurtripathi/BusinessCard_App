@@ -9,7 +9,12 @@ function Info() {
 
   return (
     <>
-     <h1>This is Info component</h1>
+    <img src="" alt="Profile Image" />
+    <h2>Saurabh Tripathi</h2>
+    <h3>Frontend Developer</h3>
+    <p>saurabhtripathi.website</p>
+    <button>Email</button>
+    <button>LinkedIn </button>
     </>
 
   )

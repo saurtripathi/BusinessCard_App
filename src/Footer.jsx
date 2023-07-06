@@ -9,7 +9,12 @@ function Footer() {
 
   return (
     <>
-     <h1>This is Footer component</h1>
+     <footer>
+        <img alt='twitter-icon' src=''/>
+        <img alt='facebook-icon' src=''/>
+        <img alt='instagram-icon' src=''/>
+        <img alt='github-icon' src=''/>
+     </footer>
     </>
 
   )
