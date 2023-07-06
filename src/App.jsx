@@ -9,7 +9,10 @@ function App() {
 
   return (
     <>
-     <h1>This is app component</h1>
+    <Info />
+    <About />
+    <Interests />
+    <Footer />
     </>
 
   )

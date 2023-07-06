@@ -10,9 +10,5 @@ import Footer from './Footer.jsx'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />
-    <Info />
-    <About />
-    <Interests />
-    <Footer />
   </React.StrictMode>,
 )
