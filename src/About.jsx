@@ -9,7 +9,7 @@ function About() {
 
   return (
     <>
-     <h1>This is Footer component</h1>
+     <h1>This is About component</h1>
     </>
 
   )
