@@ -10,10 +10,10 @@ function Footer() {
     return (
         <>
             <div className="div-icon">
-                <img alt='twitter-icon' src='public/Twitter_Icon.png' />
-                <img alt='facebook-icon' src='public/Facebook_Icon.png' />
-                <img alt='instagram-icon' src='public/Instagram_Icon.png' />
-                <img alt='github-icon' src='public/GitHub_Icon.png' />
+                <img alt='twitter-icon' src='Twitter_Icon.png' />
+                <img alt='facebook-icon' src='Facebook_Icon.png' />
+                <img alt='instagram-icon' src='Instagram_Icon.png' />
+                <img alt='github-icon' src='GitHub_Icon.png' />
             </div>
         </>
 
