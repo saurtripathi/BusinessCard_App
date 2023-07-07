@@ -2,22 +2,22 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '../public/vite.svg'
 
-import './App.css'
+
 
 function Footer() {
- 
 
-  return (
-    <>
-     <footer>
-        <img alt='twitter-icon' src=''/>
-        <img alt='facebook-icon' src=''/>
-        <img alt='instagram-icon' src=''/>
-        <img alt='github-icon' src=''/>
-     </footer>
-    </>
 
-  )
+    return (
+        <>
+            <div className="div-icon">
+                <img alt='twitter-icon' src='public/Twitter_Icon.png' />
+                <img alt='facebook-icon' src='public/Facebook_Icon.png' />
+                <img alt='instagram-icon' src='public/Instagram_Icon.png' />
+                <img alt='github-icon' src='public/GitHub_Icon.png' />
+            </div>
+        </>
+
+    )
 }
 
 export default Footer
