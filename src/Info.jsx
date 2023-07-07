@@ -2,19 +2,21 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '../public/vite.svg'
 
-import './App.css'
+// import './App.css'
 
 function Info() {
  
 
   return (
     <>
-    <img src="" alt="Profile Image" />
-    <h2>Saurabh Tripathi</h2>
-    <h3>Frontend Developer</h3>
-    <p>saurabhtripathi.website</p>
-    <button>Email</button>
-    <button>LinkedIn </button>
+    <img className="profile-pic" src="MyImage.png" alt="Profile Image" />
+    <h4 className="name">Saurabh Tripathi</h4>
+    <h5 className="job-title">Frontend Developer</h5>
+    <h6 className="p-web">saurabhtripathi.website</h6>
+    <div className="div-btn" >
+    <button><img src="Mail.png" />Email</button>
+    <button className="btn-col"><img src="linkedin.png" />LinkedIn </button>
+    </div>
     </>
 
   )
