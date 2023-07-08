@@ -168,6 +168,7 @@ button img {
 
   #root {
     padding: 0;
+    max-height: 780px;
   }
   .container {
     max-width: 450px;
