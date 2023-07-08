@@ -193,5 +193,7 @@ button{
 .name{
   margin: 1em  auto 0;
 }
-
+.interests-desc,.about-desc {
+  font-size: 0.75rem;
+}
 }
