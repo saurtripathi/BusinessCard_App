@@ -168,12 +168,12 @@ button img {
 
   #root{
     width: 100vw;
-    /* padding: 1em; */
+    height: 100vh;
   }
   .container {
     max-width: 380px;
     margin: auto;
-    height: 100vh;
+  
   }
 .profile-pic{
   max-width: 400px;
