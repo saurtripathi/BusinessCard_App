@@ -173,8 +173,7 @@ button img {
 
   #root{
     width: 100vw;
-    /* max-height: 550px; */
-    /* height: 100vh; */
+    height: 92vh;
   }
   .container {
     max-width: 380px;
