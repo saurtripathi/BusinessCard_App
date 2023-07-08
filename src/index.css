@@ -182,9 +182,9 @@ button img {
 
   }
   .container {
-    max-width: 400px;
-    max-height: 868px;
-    width: 100%;
+    max-width: 450px;
+    /* max-height: 868px; */
+    width: 90%;
     /* padding: 1em; */
   }
   .div-icon {
@@ -200,8 +200,25 @@ button img {
     /* margin-right: 1.25em; */
   }
 button {
-  width: 160px;
+  width: 140px;
   padding: 1em 2.5em;
 }
-
+.about-desc {
+  margin-bottom: 0;
+}
+.profile-pic{
+  /* height: 350px; */
+}
+.name{
+  margin-top: 1em;
+}
+.interests-desc{
+  padding-bottom: 0;
+}
+.about-desc,.interests-desc {
+  font-size: 0.7rem;
+}
+.p-web{
+  margin-bottom: 1.2em;
+}
 }
