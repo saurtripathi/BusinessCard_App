@@ -173,7 +173,7 @@ button img {
   .container {
     max-width: 450px;
     width: 90%;
-
+    margin: auto;
   }
   .div-icon {
     width: 100%;
