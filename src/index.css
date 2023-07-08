@@ -182,12 +182,16 @@ button img {
 
 .div-icon{
   width: 100%;
+  margin-top: auto;
 }
 
 
 button{
   width: 150px;
   padding: .75em 2.5em;
+}
+.name{
+  margin: 1em  auto 0;
 }
 
 }
