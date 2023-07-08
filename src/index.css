@@ -1,11 +1,12 @@
-
-html,body {
+html,
+body {
   background-color: #1C1C1C;
   margin: 0;
   padding: 0;
   font-family: 'Inter', sans-serif;
   height: 100vh;
 }
+
 * {
   box-sizing: border-box;
 }
@@ -20,6 +21,7 @@ html,body {
   /* padding: 2rem; */
   background-color: #23252C;
 }
+
 .container {
   display: flex;
   max-height: 780px;
@@ -31,11 +33,13 @@ html,body {
   /* margin: 44px 116px; */
   margin: 0 auto;
 }
+
 .profile-pic {
-  max-width:317px; 
-  width: 317px;
-  height: 317px;
-  background-color: #6a6a6a;;
+  /* max-width: 317px; */
+  width: 100%;
+  height: 310px;
+  background-color: #6a6a6a;
+  ;
 }
 
 .card {
@@ -75,7 +79,7 @@ html,body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 8px;
+  gap: 1.25em;
 }
 
 
@@ -86,7 +90,7 @@ html,body {
 
 button {
   width: 115px;
-  padding: 9px 10px 9px 7px;
+  padding: 0.75em 1.5em;
   cursor: pointer;
   font-size: 0.875rem;
   font-weight: 500;
@@ -104,18 +108,14 @@ button img {
   margin-right: 6px;
 }
 
-
-/* button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-} */
-.about-desc,.about-heading,.interests-heading,.interests-desc {
+.about-desc,
+.about-heading,
+.interests-heading,
+.interests-desc {
   padding: 0 35px;
   text-align: left;
 }
+
 .about-desc {
   margin-top: 0;
   margin-bottom: 1.6875em;
@@ -166,10 +166,42 @@ button:focus-visible {
   /* align-content:center ; */
   /* padding: 1em 2em; */
 }
+
 .div-icon img {
   width: 25px;
   height: 25px;
-  color:#918E9B;
+  color: #918E9B;
   align-self: center;
   margin-right: 1.25em;
+}
+
+@media screen and (max-width: 425px) {
+
+  #root {
+    padding: 0;
+
+  }
+  .container {
+    max-width: 400px;
+    max-height: 868px;
+    width: 100%;
+    /* padding: 1em; */
+  }
+  .div-icon {
+    width: 100%;
+    gap: 1em;
+  }
+  .div-icon img {
+    width: 45px;
+    height: 45px;
+    justify-self: center;
+    /* color: #918E9B; */
+    /* align-self: center; */
+    /* margin-right: 1.25em; */
+  }
+button {
+  width: 160px;
+  padding: 1em 2.5em;
+}
+
 }
