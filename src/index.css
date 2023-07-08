@@ -167,15 +167,19 @@ button img {
 }
 @media screen and (max-width: 400px) {
 
+  body {
+    height: 95vh;
+  }
+
   #root{
     width: 100vw;
     /* max-height: 550px; */
-    height: 100vh;
+    /* height: 100vh; */
   }
   .container {
     max-width: 380px;
     margin: 0 auto;
-    height: 100vh;
+    /* height: 100vh; */
   }
 .profile-pic{
   max-width: 400px;
