@@ -15,7 +15,7 @@ body {
   display: flex;
   flex-direction: column;
   max-width: 550px;
-  max-height: 868px;
+  /* max-height: 868px; */
   margin: 0 auto;
   background-color: #23252C;
   padding: 0;
