@@ -173,7 +173,7 @@ button img {
   .container {
     max-width: 380px;
     margin: 0 auto;
-  
+    height: 100vh;
   }
 .profile-pic{
   max-width: 400px;
