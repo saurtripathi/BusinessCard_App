@@ -175,7 +175,6 @@ button img {
     width: 100%;
     padding: 0;
     background-color: red;
-    height: 95vh;
   }
   .container {
     max-width: 375px;
@@ -205,5 +204,8 @@ button{
 }
 .interests-desc,.about-desc {
   font-size: 0.75rem;
+}
+.interests-desc {
+  padding-bottom: 0;
 }
 }
