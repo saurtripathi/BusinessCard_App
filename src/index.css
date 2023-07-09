@@ -178,13 +178,13 @@ button img {
     width: 100%;
     padding: 0;
     /* background-color: red; */
-    height: 95vh;
+    height: 92vh;
   }
   .container {
     max-width: 400px;
     width: 100%;
     border: 1px solid black;
-    height: 95vh;
+    height: 92vh;
   }
 .profile-pic{
   max-width: 400px;
