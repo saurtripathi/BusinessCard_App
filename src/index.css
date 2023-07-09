@@ -170,7 +170,7 @@ button img {
 
 
   body {
-    height: 90vh;
+    height: 95vh;
   }
 
   #root{
@@ -178,13 +178,13 @@ button img {
     width: 100%;
     padding: 0;
     /* background-color: red; */
-    height: 100vh;
+    height: 95vh;
   }
   .container {
     max-width: 375px;
     width: 100%;
     border: 1px solid black;
-    height: 100vh;
+    height: 905vh;
   }
 .profile-pic{
   max-width: 375px;
