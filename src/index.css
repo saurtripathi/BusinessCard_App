@@ -174,12 +174,14 @@ button img {
     max-width: 375px;
     width: 100%;
     padding: 0;
-    background-color: red;
+    /* background-color: red; */
+    height: 100vh;
   }
   .container {
     max-width: 375px;
     width: 100%;
     border: 1px solid black;
+    height: 100vh;
   }
 .profile-pic{
   max-width: 375px;
