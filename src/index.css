@@ -200,7 +200,10 @@ button img {
   /* height: 8vh; */
   /* margin-top: 1em; */
 }
-
+.div-icon img {
+  width: 2.5em;
+  height: 2.5em;
+}
 
 button{
   width: 150px;
@@ -214,5 +217,9 @@ button{
 }
 .interests-desc {
   padding-bottom: 0;
+
+}
+.about-desc{
+  margin-bottom: 0;
 }
 }
