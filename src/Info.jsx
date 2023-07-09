@@ -9,7 +9,10 @@ function Info() {
 
     return (
         <>
-                <img className="profile-pic" src="MyImage.png" alt="Profile Image" />
+                <div className="image-div">
+                    <img className="profile-pic" src="MyImage.png" alt="Profile Image" />
+                </div>
+                
                     <h4 className="name">Saurabh Tripathi</h4>
                     <h5 className="job-title">Frontend Developer</h5>
                     <h6 className="p-web">saurabhtripathi.website</h6>
